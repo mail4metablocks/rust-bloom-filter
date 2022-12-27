@@ -1,0 +1,21 @@
+[package]
+name = "rust-bloom-filter"
+version = "0.1.0"
+description = "A bloom filter implementation in Rust"
+readme = "README.md"
+keywords = ["bloom", "filter"]
+license = "MIT"
+
+[dependencies]
+
+[lib]
+name = "rust-bloom-filter"
+path = "src/lib.rs"
+
+[features]
+default = ["std"]
+
+[dev-dependencies]
+
+[package.metadata.docs.rs]
+all-features = true
