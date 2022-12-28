@@ -9,8 +9,9 @@ license = "MIT"
 [dependencies]
 
 [lib]
-name = "rust-bloom-filter"
+name = "bloom_filter"
 path = "src/lib.rs"
+crate-type = ["lib"]
 
 [features]
 default = ["std"]
