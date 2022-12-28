@@ -3,7 +3,7 @@ use std::hash::{Hash, Hasher};
 
 const NUM_HASHES: usize = 3;
 
-struct BloomFilter {
+pub struct BloomFilter {
     bits: Vec<bool>,
     num_hashes: usize,
 }
