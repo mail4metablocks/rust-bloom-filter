@@ -13,8 +13,7 @@ name = "bloom_filter"
 path = "src/lib.rs"
 crate-type = ["lib"]
 
-[features]
-default = ["std"]
+
 
 [dev-dependencies]
 
