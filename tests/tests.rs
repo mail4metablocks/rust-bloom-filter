@@ -1,4 +1,6 @@
-use my_crate::BloomFilter;
+extern crate bloom_filter;
+
+use bloom_filter::BloomFilter;
 
 #[test]
 fn test_bloom_filter() {
